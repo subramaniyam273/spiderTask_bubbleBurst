@@ -1,0 +1,105 @@
+body{
+  background-color: #272727;
+  text-align: center;
+}
+
+#bestHeading{
+  /*width: 100%;
+  height: 17%;
+  font-size: 700%;
+  font-family: 'Lobster Two', cursive;
+  animation-name: fntclr;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 3%;
+  left: 0;*/
+
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 2%;
+  left: 0;
+  font-size: 700%;
+  /*font-family: 'Lobster Two', cursive;*/
+  font-family: 'Bungee Shade', cursive;
+  animation-name: fntclr;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  line-height: 110%;
+}
+
+.bestValues{
+  width: 100%;
+  height: 8%;
+  font-size: 300%;
+  display: inline-block;
+  position: absolute;
+  font-family: 'Righteous', cursive;
+  left: 0;
+  top: 25%;
+  color: white;
+  /*border: solid 2px white;*/
+  float: left;
+  text-align: center;
+}
+
+#v1{
+  top: 25%;
+}
+#v2{
+  top: 33%;
+}
+#v3{
+  top: 41%;
+}
+#v4{
+  top: 49%;
+}
+#v5{
+  top: 57%;
+}
+#v6{
+  top: 65%;
+}
+#v7{
+  top: 73%;
+}
+#v8{
+  top: 81%;
+}
+#v9{
+  top: 89%;
+}
+#v10{
+  top: 97%;
+}
+
+
+#homeButton3{
+  width:6%;
+  height: 10%;
+  display: inline-block;
+  position: absolute;
+  top: 107%;
+  left: 47%;
+  margin-bottom: 5%;
+}
+
+@keyframes fntclr {
+
+  0%{color:white;}
+  25%{color:#FF0181;}
+	50%{color:#900DFF;}
+	75%{color:#32DBF0;}
+  100%{color:#FAE100;}
+
+}
+
+#homeButton3:hover{
+  border: solid 5px white;
+}

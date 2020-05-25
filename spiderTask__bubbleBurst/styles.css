@@ -1,0 +1,145 @@
+#canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #272727;
+}
+
+#homeButton{
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right:15px;
+
+}
+
+#pauseButton{
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right:90px;
+}
+
+#felixButton{
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right:165px;
+}
+
+#felixUsage{
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right:240px;
+  font-size: 300%;
+  color: white;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+#playButton{
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  width: 6%;
+  height: 10%;
+  left: 47%;
+
+
+}
+
+#homeButton:hover,#pauseButton:hover,#playButton:hover{
+  opacity: 0.9;
+  /*box-shadow: 0 0 15px 4px white;*/
+  border: solid 5px white;
+}
+
+#felixButton:hover{
+  opacity: 0.9;
+  border: solid 5px red;
+}
+
+.pausePage{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #272727;
+}
+
+.gameDetail{
+  width: 15%;
+  height: 15%;
+  display: inline-block;
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  font-family: 'Righteous', cursive;
+}
+
+#heading1{
+  width: 100%;
+  height: 50%;
+  font-size: 300%;
+  color: red;
+  float: left;
+  text-align: center;
+}
+
+#value1{
+  width: 100%;
+  height: 50%;
+  font-size: 300%;
+  color: white;
+  float: left;
+  text-align: center;
+}
+.hidden{
+  z-index: -1;
+}
+
+.countDown{
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  width: 15%;
+  height: 15%;
+  left: 42.5%;
+  font-size: 500%;
+  font-family: 'Righteous', cursive;
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  animation-name: cnd;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes cnd2{
+  0%:{color: red;}
+  100%:{color: white;}
+}
+
+@keyframes cnd {
+
+  0%{background-color:white;color: red;}
+	50%{background-color:red;color: white;}
+  100%{background-color:white;color: red;}
+
+}
